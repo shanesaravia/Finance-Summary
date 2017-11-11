@@ -1,0 +1,20 @@
+mint:
+  user: 
+  pass: 
+  ius_session: 
+  thx_guid: 
+
+questrade:
+  refresh_token1: 
+  refresh_token2: 
+  originalTFSA: 
+  contributedTFSA: 
+  RRSP: 
+  TFSA: 
+  TFSA2: 
+
+graphs:
+  netchart: netgraph.png
+
+summary:
+  month:

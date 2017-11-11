@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+	</head>
+	<body>
+	<header>
+		<h1>Shane's Finance App</h1>
+	</header>
+	<content>
+		<div id="transactions">
+			<h2 class="dftitle">Transactions</h2>
+			{{ last_month_transactions }}
+		</div>
+		<div id="monthlyFlow">
+			<h2 class="dftitle">Monthly Flow</h2>
+			{{ flow }}
+		</div>
+		<div id="accountOverview">
+			<h2 class="dftitle">Accounts Overview</h2>
+			{{ accounts }}
+		</div>
+		<div id="net_chart">
+			<img class="netchart" src="{{ netchart }}" />
+		</div>
+		<div id=stocks>
+			<h1 class="heading">Stocks</h1>
+			<div id="TFSAdata">
+				<h2 class="dftitle">TFSA</h2>
+				{{ TFSAdata }}
+			</div>
+			<div id="RRSPdata">
+				<h2 class="dftitle">RRSP</h2>
+				{{ RRSPdata }}
+			</div>
+			<div id="TFSA2data">
+				<h2 class="dftitle">TFSA2</h2>
+				{{ TFSA2data }}
+			</div>
+			<div id="stocks_overview">
+				<h2 class="dftitle">Overview</h2>
+				{{ stocks_overview }}
+			</div>
+		</div>
+	</content>
+	</body>
+	<footer>
+		<p>Copyright 2017</p>
+	</footer>
+</html>

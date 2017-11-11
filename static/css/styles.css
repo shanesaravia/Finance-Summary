@@ -1,0 +1,126 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*header {
+	background-color: green;
+}*/
+
+header, footer {
+	padding: 1px 0;
+	text-align: center;
+	color: white;
+	background-color: green;
+	width: 100%;
+}
+
+footer {
+	clear:both;
+	position: relative;
+	top: 20px;
+}
+
+#stocks {
+	display: inline-block;
+}
+
+.heading {
+	color: green;
+	border-top: 3px green solid;
+	border-bottom: 3px green solid;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0;
+	width: 98%;
+	margin-left: 30px;
+}
+/*footer {
+	clear: both;
+	margin-top: 150px;
+	height: 100px;
+}*/
+
+/*header {
+	background-color: green;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+}*/
+
+
+#transactions, #monthlyFlow, #accountOverview, #TFSAdata, #RRSPdata, #TFSA2data, #stocks_overview{
+	float: left;
+}
+
+.dataframe {
+	margin-left: 30px;
+}
+
+.dftitle {
+	margin-left: 40px;
+}
+
+/*.tfsatitle {
+	position: relative;
+	width: 110px;
+	top: 86px;
+	left: 30px;
+	padding-left: 175px;
+	padding-right: 140px;
+	background-color: green;
+	color: white;
+}*/
+
+.netchart {
+	margin: 30px;
+}
+
+/* Table Designs */
+th {
+	background: green;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background: #F1F1F1;
+}
+
+tr:nth-child(odd) {
+	background: #FEFEFE;
+}
+
+tr:nth-child(even):hover, tr:nth-child(odd):hover {
+	background: #666; color: #FFF;
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 35px;
+    padding: 0 10px;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+/* Add border-radius to specific cells! */
+th:first-child { border-top-left-radius: 10px; }
+th:last-child {border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: 
+    collapse; border-spacing: 0;
+}
+
+/*Right Justify all INT values*/
+.transactionstable td:nth-child(3) {
+	text-align: right;
+}
+
+.flowtable, .accountstable td:nth-child(2) {
+	text-align: right;
+}
