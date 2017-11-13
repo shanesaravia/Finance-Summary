@@ -19,4 +19,4 @@ This is a personal finance app which provides a detailed summary of all personal
 Shane Saravia
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/shanesaravia/Rogers-Data-Notifier/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/shanesaravia/Finance-Summary/blob/master/LICENSE) file for details
